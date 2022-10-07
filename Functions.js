@@ -19,13 +19,25 @@ function rectangle(length, width) {
 }
 
 let area = rectangle(11, 12)
-console.log(area)
+
+// console.log(area)
+
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log(`\n-------------EXERCISE 2-------------`)
+
+function crazySum(a, b) {
+  if (a === b) {
+    return (a + b) * 3
+  } else {
+    return a + b
+  }
+}
+
+// console.log(crazySum(3, 3))
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
