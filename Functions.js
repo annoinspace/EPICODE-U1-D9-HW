@@ -12,8 +12,14 @@ ASSIGNMENT RULES
  Write a function called "area" which receives 2 parameters (l1, l2) and calculates the area of the associated rectangle.
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log(`\n-------------EXERCISE 1-------------`)
 
+function rectangle(length, width) {
+  return length * width
+}
+
+let area = rectangle(11, 12)
+console.log(area)
 /* EXERCISE 2
  Write a function called "crazySum" which receives two integers as parameters.
  It should return the sum of those two values, but if the two values are the same then it should return their sum multiplied by 3.
