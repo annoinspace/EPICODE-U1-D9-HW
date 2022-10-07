@@ -83,24 +83,34 @@ ASSIGNMENT RULES
  It should add the word "Strive" in front of the given string, but if the given string already begins with "Strive", then it should just return the original string.
 */
 
-console.log(`\n-------------EXERCISE 5-------------`)
+// console.log(`\n-------------EXERCISE 5-------------`)
 
-let string
-function strivify(string) {
-  if (string === "Strive") {
-    console.log(string)
-  } else {
-    console.log("Strive" + string)
-  }
-}
-strivify("Aneesah")
+// let string
+// function strivify(string) {
+//   if (string === "Strive") {
+//     console.log(string)
+//   } else {
+//     console.log("Strive" + string)
+//   }
+// }
+// strivify("Aneesah")
 
 /* EXERCISE 6
  Write a function called "check3and7" which accepts a positive number as a parameter and checks if it is a multiple of 3 or a multiple of 7.
  HINT: Modulus Operator
 */
 
-/* WRITE YOUR ANSWER HERE */
+console.log(`\n-------------EXERCISE 6-------------`)
+
+function check3and7(n) {
+  if (n % 3 === 0 && n % 7 === 0) {
+    console.log(`${n} is a multiple of 3 and 7`)
+  } else {
+    console.log(`${n} is not multiple of 3 and 7`)
+  }
+}
+
+// check3and7(22)
 
 /* EXERCISE 7
  Write a function called "reverseString" which programmatically reverses a given string (es.: Strive => evirtS).
